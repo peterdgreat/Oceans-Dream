@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+   
+}
+body{
+    background-color: rgba(184, 163, 135, 0.788);
+    
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    color: blue;
+    background-color:white; 
+    border-radius: 15px;
+}
+.flex-1{
+    flex-wrap: wrap;
+    flex: 1.5;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flex-2{
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 20px;
+    
+}
+.flex-2 ul li{
+    display: inline;
+    cursor: pointer;
+   
+    padding-left: 10px;
+    
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-1{
+    flex: 1.5;
+}
+.section-2{
+    flex: 1;
+
+    text-align: end;
+    
+}
+.section-2 img{
+    border-radius: 5%;
+    justify-content: right;
+    width: 75%;
+
+}
+.special{
+    color: blue;
+}
+.section-1 h4{
+    text-decoration: ;
+    color: blue;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(223, 217, 210, 0.842);
+   text-align: center;
+   align-items: center;
+   border-radius:10px ;
+   border-color:  rgba(223, 217, 210, 0.842);;
+padding-top: 10px;
+cursor: pointer;
+}
+.container-3{
+    background-color: white;
+    border-radius: 15px;
+    border:  black;
+    
+}
+.container-3 h2{
+    text-align: center;
+    padding-top: 15px;
+}
+.list-flex{
+    display: flex;
+}
+.list-1{
+    flex: 1;
+    text-decoration: double;
+  
+}
+.list-2{
+    flex: 1;
+}
+.list-1 li{
+
+}
+.flex-main{
+    display: flex;
+    
+}
+.main-container{
+    margin: 10px;
+}
+.main-container h2{
+    text-align: center;
+}
+.flex-main-1{
+    background-color: white;
+    flex: 1;
+    border-radius: 15px;
+}
+.flex-main-2{
+    background-color: white;
+    flex: 1;
+    border-radius: 15px;
+}
+.flex-main-3{
+    background-color: white;
+    flex: 1;
+    border-radius: 15px;
+}
+.main-flex{
+    display: flex;
+    margin: 10px;
+}
+.side-flex-1{
+    flex: 1;
+    height: 677.63px;
+    background-color: white;
+    flex: 1;
+    border-radius: 15px;
+    justify-content: space-around;
+    text-align: center;
+}
+.side-flex-2{ 
+    flex: 1;
+    
+}
+.side-flex-1 figcaption{
+    padding-top: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+.side-flex-2 div{
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+}
+.footer-flex-1{
+    margin: 0px;
+    flex: 1;
+    background-color: rgb(67, 67, 241);
+}
+.footer-flex-2{
+    margin: 0px;
+    flex: 1;
+    background-color: rgb(84, 236, 84);
+}
+.logo ul li img{
+    width: 100px;
+}
+.logo ul li{
+    list-style: none;
+}
+
+.logo ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
